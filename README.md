@@ -1,2 +1,2 @@
 # basic-math
-basic mathematics examples
+basic mathematics examples in c++
