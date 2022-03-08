@@ -8,9 +8,8 @@ int main()
 	std::cout << "or " << (5 == x or x > 4) << std::endl; /*5 equals x or x is greater than 4*/
 	std::cout << "&& " << (x == 5 && x > 1) << std::endl; /*x is equal to 5 and at the same time x is greater than 1*/
 
-	if (x == 5, x != 6, 5 == x or x > 4, x == 5 && x > 1) { /*if x equal to 5 and x does not equal 6 and x equal to 5 or x is greater than 4 and x equal to 5 &(and) x greater than 1 in same time -> console print Hello World!*/
-		std::cout << "\nHello World!\n"; /*print selected text*/
-	}
+	if (x == 5, x != 6, 5 == x or x > 4, x == 5 && x > 1) /*if x equal to 5 and x does not equal 6 and x equal to 5 or x is greater than 4 and x equal to 5 &(and) x greater than 1 in same time -> console print Hello World!*/
+		std::cout << "\nHello World!\n"; /*print selected text*/	
 
 	x + 1 << x-2 << x*2 << x/2 + 1; /*x = 5; x + 1 = 6, x-2 = 4, x*2 = 8, x/2 = 4 + 1 = 5*/
 	std::cout << std::endl << x << std::endl; /*print calculated value*/
